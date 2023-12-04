@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CardinalJV/Portefolio/static/css/main.33704093.css",
+    "main.js": "/CardinalJV/Portefolio/static/js/main.a2cfbf36.js",
+    "static/js/787.82697064.chunk.js": "/CardinalJV/Portefolio/static/js/787.82697064.chunk.js",
+    "index.html": "/CardinalJV/Portefolio/index.html",
+    "main.33704093.css.map": "/CardinalJV/Portefolio/static/css/main.33704093.css.map",
+    "main.a2cfbf36.js.map": "/CardinalJV/Portefolio/static/js/main.a2cfbf36.js.map",
+    "787.82697064.chunk.js.map": "/CardinalJV/Portefolio/static/js/787.82697064.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33704093.css",
+    "static/js/main.a2cfbf36.js"
+  ]
+}

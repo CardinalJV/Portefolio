@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "Kaza",
+        "description": "Site de location immobilière",
+        "type": "Front",
+        "tags": [
+            "React.js",
+            "Sass"
+        ],
+        "picture": "images/captures/picture_kaza.png",
+        "competences": [
+            "Mettre en œuvre des animations CSS",
+            "Développer une interface web avec Sass",
+            "Configurer la navigation entre les pages de l'application avec React Router"
+        ],
+        "lien_repo": "https://github.com/CardinalJV/Kaza",
+        "lien_page": "https://cardinaljv.github.io/Kaza/"
+    },
+    {
+        "id": 1,
+        "name": "Mon vieux grimoire",
+        "description": "Site de référencement de livre",
+        "type": "Back",
+        "tags": [
+            "Node.js",
+            "Express.js"
+        ],
+        "picture": "images/captures/picture_mon_vieux_grimoire.png",
+        "competences": [
+            "Implémenter un modèle logique de données conformément à la réglementation",
+            "Mettre en œuvre des opérations CRUD de manière sécurisée",
+            "Stocker des données de manière sécurisée"
+        ],
+        "lien_repo": "https://github.com/CardinalJV/Mon-vieux-grimoire",
+        "lien_page": "https://cardinaljv.github.io/Kaza/"
+    },
+    {
+        "id": 2,
+        "name": "Nina Carducci",
+        "description": "Site de photographe professionel",
+        "type": "Front",
+        "tags": [
+            "SEO",
+            "Schema.org"
+        ],
+        "picture": "images/captures/picture_nina-carducci.png",
+        "competences": [
+            "Optimiser les performances d’un site web",
+            "Débugger un site web grâce aux Chrome DevTools",
+            "Rédiger un cahier de recette pour tester un site"
+        ],
+        "lien_repo": "https://github.com/CardinalJV/Nina-Carducci",
+        "lien_page": "https://cardinaljv.github.io/Nina-Carducci/"
+    },
+    {
+        "id": 3,
+        "name": "Booki",
+        "description": "Site de réservation de séjours",
+        "type": "Front",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "picture": "images/captures/picture_booki.png",
+        "competences": [
+            "Implémenter une interface responsive avec HTML et CSS",
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+            "Versionner son projet avec Git et Github"
+        ],
+        "lien_repo": "https://github.com/CardinalJV/Booki",
+        "lien_page": "https://cardinaljv.github.io/Booki/"
+    }
+]

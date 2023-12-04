@@ -1,0 +1,226 @@
+.projects {
+  font-family: "Geologica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 1080px;
+  height: 100vh;
+  position: relative;
+}
+
+.projects .img-contain {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  justify-content: space-between;
+  top: 8%;
+  align-items: center;
+}
+
+.projects .img-contain img {
+  width: 150px;
+  height: 150px;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.projects .img-contain img:hover {
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform-origin: center;
+  transform: scale(1.1);
+}
+
+.projects .img-contain h2 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #5F5D69;
+  border-bottom: 4px solid transparent;
+}
+
+.projects .img-contain .white-space {
+  width: 150px;
+}
+
+.projects article {
+  transition: 0.5s;
+  transform-origin: center;
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.projects article .type-projet {
+  display: flex;
+  position: absolute;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 5px;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  transform: translate(-5px, -5px);
+  justify-content: center;
+  align-items: center;
+}
+
+.projects article .header-projects {
+  width: 100%;
+  height: 10%;
+}
+
+.projects article .header-projects h3 {
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.projects article .header-projects .description {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  height: fit-content;
+  font-size: 24px;
+}
+
+.projects article .to-left,
+.projects article .to-right {
+  height: 450px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects article .to-left .icone-to-right,
+.projects article .to-left .icone-to-left,
+.projects article .to-right .icone-to-right,
+.projects article .to-right .icone-to-left {
+  font-size: 28px;
+  position: sticky;
+}
+
+.projects article .to-left .icone-to-right:hover,
+.projects article .to-left .icone-to-left:hover,
+.projects article .to-right .icone-to-right:hover,
+.projects article .to-right .icone-to-left:hover {
+  cursor: pointer;
+  transform-origin: right;
+  transform: scale(1.25);
+  transition: 0.25s;
+}
+
+.projects article .capture-contain {
+  box-sizing: border-box;
+  width: 45%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.projects article .capture-contain img {
+  width: 100%;
+  height: 60%;
+  transition: 0.5s;
+}
+
+.projects article .capture-contain img:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+  transition: 0.5s;
+}
+
+.projects article .capture-contain li {
+  height: 30px;
+  list-style-type: none;
+  width: fit-content;
+}
+
+.projects .info {
+  width: 45%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.projects .info ul {
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projects .info ul h4 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.projects .buttons {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects .buttons button {
+  padding: 0px;
+  width: 50%;
+  height: 100%;
+  border-style: none;
+  border: none;
+  background-color: white;
+  position: sticky;
+}
+
+.projects .buttons button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Geologica", sans-serif;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.projects .buttons button a .icone {
+  display: block;
+  font-size: 30px;
+  color: black;
+}
+
+.projects .buttons button a:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: black;
+}
+
+.projects .buttons button a:hover .icone {
+  color: white;
+}
+/*# sourceMappingURL=projects.css.map */

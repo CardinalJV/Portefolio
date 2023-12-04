@@ -1,0 +1,169 @@
+.footer {
+  font-family: "Geologica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 1080px;
+  height: 100vh;
+  position: relative;
+}
+
+.footer .img-contain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  top: 8%;
+  align-items: center;
+}
+
+.footer .img-contain img {
+  width: 150px;
+  height: 150px;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.footer .img-contain img:hover {
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform-origin: center;
+  transform: scale(1.1);
+}
+
+.footer .img-contain h2 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #5F5D69;
+  border-bottom: 4px solid transparent;
+}
+
+.footer .img-contain .white-space {
+  width: 150px;
+}
+
+.footer .contain {
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  position: sticky;
+  justify-content: space-between;
+}
+
+.footer .contain a {
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #3C3B42;
+  box-shadow: black 0px 20px 30px -10px;
+}
+
+.footer .contain a:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  animation: swing 0.5s ease-in-out;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(-15deg);
+  }
+  /* Ajustez l'angle selon vos besoins */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.footer .contain a p {
+  display: none;
+}
+
+.footer .contain a .icone {
+  font-size: 70px;
+  display: flex;
+  color: white;
+}
+
+.footer .copyright {
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+  color: #5F5D69;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 1080px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+  }
+  .footer span {
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .footer span:hover {
+    animation: shake 0.5s ease-in-out;
+  }
+  @keyframes shake {
+    0% {
+      transform: translateX(0px);
+    }
+    20% {
+      transform: translateX(5px);
+    }
+    40% {
+      transform: translateX(-5px);
+    }
+    60% {
+      transform: translateX(5px);
+    }
+    80% {
+      transform: translateX(-5px);
+    }
+    /* Ajustez l'angle selon vos besoins */
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .footer span p {
+    display: block;
+    font-family: "Geologica", sans-serif;
+    color: #5F5D69;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .footer span .icone {
+    padding: 0px;
+    font-size: 30px;
+    min-width: 30px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

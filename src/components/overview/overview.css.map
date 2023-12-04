@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,GAAG,EAAE,IAAI;CASZ;;AAZD,AAKI,SALK,CAKL,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,IAAI;EACnB,gBAAgB,ECTV,OAAO;EDUb,UAAU,EAAE,mBAAmB,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI;CAC/C",
+    "sources": [
+        "overview.scss",
+        "../../assets/main-style.scss"
+    ],
+    "names": [],
+    "file": "overview.css"
+}

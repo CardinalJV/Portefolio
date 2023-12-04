@@ -1,5 +1,6 @@
 {
   "name": "code",
+  "homepage": "https://github.com/CardinalJV/Portefolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,18 +1,18 @@
 import React from 'react';
 import './skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers, faUser, faLightbulb, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faUser, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faNode, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const skills = () => {
-
     return (
+
         <div className='skills'>
 
             <span className="img-contain">
-                <img src="images/logo/logo_skills.png" alt="Mon logo" />
-                <h2>Compétences</h2>   
-                <p className="white-space"></p>      
+                <img src={process.env.PUBLIC_URL + "/images/logo/logo_skills.png"} alt="Mon logo" />
+                <h2>Compétences</h2>
+                <p className="white-space"></p>
             </span>
 
             <div className="ul-contain">

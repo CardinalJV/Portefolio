@@ -6,6 +6,7 @@
   margin: auto;
   max-width: 1080px;
   height: 100vh;
+  align-items: center;
   position: relative;
 }
 
@@ -18,8 +19,8 @@
 }
 
 .footer .img-contain img {
-  width: 150px;
-  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
   transition: 0.5s;
   border-radius: 50%;
 }
@@ -36,6 +37,7 @@
   font-size: 30px;
   color: #5F5D69;
   border-bottom: 4px solid transparent;
+  position: sticky;
 }
 
 .footer .img-contain .white-space {
@@ -87,7 +89,6 @@
   80% {
     transform: rotate(-15deg);
   }
-  /* Ajustez l'angle selon vos besoins */
   100% {
     transform: rotate(0deg);
   }
@@ -114,56 +115,34 @@
 }
 
 @media (max-width: 1080px) {
-  .footer {
+  .footer .img-contain {
+    top: 1%;
+    width: 90%;
     flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    padding: 10px;
+    align-items: center;
+    height: 10%;
   }
-  .footer span {
-    box-sizing: border-box;
-    justify-content: space-between;
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    padding: 10px;
+  .footer .img-contain img {
+    width: 75px;
+    height: 75px;
   }
-  .footer span:hover {
-    animation: shake 0.5s ease-in-out;
-  }
-  @keyframes shake {
-    0% {
-      transform: translateX(0px);
-    }
-    20% {
-      transform: translateX(5px);
-    }
-    40% {
-      transform: translateX(-5px);
-    }
-    60% {
-      transform: translateX(5px);
-    }
-    80% {
-      transform: translateX(-5px);
-    }
-    /* Ajustez l'angle selon vos besoins */
-    100% {
-      transform: translateX(0px);
-    }
-  }
-  .footer span p {
-    display: block;
-    font-family: "Geologica", sans-serif;
-    color: #5F5D69;
+  .footer .img-contain h2 {
     margin: 0px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
   }
-  .footer span .icone {
-    padding: 0px;
-    font-size: 30px;
-    min-width: 30px;
+  .footer .img-contain p {
+    display: none;
+  }
+  .footer .contain {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer .contain a {
+    width: 85px;
+    height: 85px;
+  }
+  .footer .contain a .icone {
+    font-size: 45px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

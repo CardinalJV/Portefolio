@@ -2,16 +2,13 @@ import React from 'react';
 import './welcome.css';
 import { useSpring, animated } from 'react-spring';
 
-
 const Welcome = ( { scrollToProjects, scrollToContacts }) => {
     const [{ translateY }, set] = useSpring(() => ({ translateY: 0 }));
 
     const handleScroll = () => {
-        // Réglez la valeur de translateY en fonction de la position de défilement
         set({ translateY: window.scrollY });
     };
 
-    // Ajoutez un gestionnaire d'événement de défilement lors du montage du composant
     React.useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -31,7 +28,7 @@ const Welcome = ( { scrollToProjects, scrollToContacts }) => {
                     <button onClick={scrollToProjects}>Projets</button>
                     <button onClick={scrollToContacts}>Contacts</button>
                 </span>
-                <img src="images/logo/logo_welcome.png" alt="Mon logo" />
+                <img src={process.env.PUBLIC_URL + "/images/logo/logo_welcome.png"}  alt="Mon logo" />
                 
             </div>
             

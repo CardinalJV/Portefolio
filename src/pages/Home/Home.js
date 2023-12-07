@@ -5,7 +5,6 @@ import Footer from '../../components/footer/footer.js';
 import './Home.css';
 import Welcome from '../../components/welcome/welcome.js';
 
-
 const Home = () => {
 
     const targetSectionProjects = useRef(null);
@@ -34,9 +33,3 @@ const Home = () => {
 };
 
 export default Home
-
-//<Header />
-//<About />
-//<Skills />
-//<Projects />
-//<Footer />

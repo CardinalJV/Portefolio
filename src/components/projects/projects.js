@@ -84,6 +84,7 @@ const Projects = ({ targetSectionProjects }) => {
                     <FontAwesomeIcon icon={faChevronRight} className="icone-to-right" onClick={toRight} />
                 </span>
             </article>
+            <div className="white-space"></div>
         </div>
     );
 };

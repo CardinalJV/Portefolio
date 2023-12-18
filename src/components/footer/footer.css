@@ -16,6 +16,7 @@
   justify-content: space-between;
   top: 8%;
   align-items: center;
+  height: fit-content;
 }
 
 .footer .img-contain img {
@@ -49,7 +50,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 600px;
+  height: 570px;
   border-radius: 10px;
   position: sticky;
   justify-content: space-between;
@@ -112,6 +113,7 @@
   color: #5F5D69;
   font-weight: 600;
   font-size: 16px;
+  margin: 0px;
 }
 
 @media (max-width: 1080px) {
@@ -120,7 +122,6 @@
     width: 90%;
     flex-direction: column;
     align-items: center;
-    height: 10%;
   }
   .footer .img-contain img {
     width: 75px;

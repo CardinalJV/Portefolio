@@ -28,7 +28,8 @@ const Footer = ({ targetSectionContacts }) => {
             </div>
             <p className="copyright">
                 < FontAwesomeIcon icon={faCopyright} />&nbsp;
-                2023 - Viranaiken Jessy</p>
+                2023 - Viranaiken Jessy
+            </p>
         </div>
     );
 };

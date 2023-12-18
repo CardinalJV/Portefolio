@@ -64,6 +64,7 @@ const skills = () => {
                     </li>
                 </ul>
             </div>
+            <div className="white-space"></div>
         </div>
     );
 };

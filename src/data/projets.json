@@ -24,7 +24,8 @@
         "type": "Back",
         "tags": [
             "Node.js",
-            "Express.js"
+            "Express.js",
+            "MongoDB"
         ],
         "picture": "images/captures/picture_mon_vieux_grimoire.png",
         "competences": [
@@ -33,7 +34,7 @@
             "Stocker des données de manière sécurisée"
         ],
         "lien_repo": "https://github.com/CardinalJV/Mon-vieux-grimoire",
-        "lien_page": "https://cardinaljv.github.io/Kaza/"
+        "lien_page": "https://github.com/CardinalJV/Mon-vieux-grimoire"
     },
     {
         "id": 2,

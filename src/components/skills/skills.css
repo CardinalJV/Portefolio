@@ -93,6 +93,19 @@
   font-size: 22px;
 }
 
+.skills .ul-contain ul li h4 {
+  margin: 0px;
+  font-size: 22px;
+  position: sticky;
+  font-weight: 400;
+}
+
+.skills .ul-contain ul li h4 p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .skills .ul-contain ul li span {
   min-width: 40px;
   min-height: 40px;
@@ -186,8 +199,14 @@
     margin: 0px;
   }
   .skills .ul-contain ul li {
-    font-size: 16px;
     width: 80%;
+  }
+  .skills .ul-contain ul li h4 {
+    font-size: 16px;
+  }
+  .skills .ul-contain ul li h4 p {
+    font-size: 12px;
+    font-weight: 200;
   }
   .skills .ul-contain ul li span {
     font-size: 16px;

@@ -106,8 +106,10 @@
 }
 
 .footer .copyright {
-  position: absolute;
-  bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
   width: 100%;
   text-align: center;
   color: #5F5D69;
